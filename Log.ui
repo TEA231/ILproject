@@ -37,9 +37,9 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>220</y>
-      <width>221</width>
-      <height>21</height>
+      <y>230</y>
+      <width>231</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -51,26 +51,11 @@ border: none;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>270</y>
-      <width>221</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background: transparent;
-color: white;
-border: none;</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>360</y>
+      <y>300</y>
       <width>251</width>
       <height>41</height>
      </rect>

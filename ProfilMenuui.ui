@@ -62,27 +62,12 @@ border: none;</string>
      <string>&quot;Лог&quot;</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>50</y>
-      <width>201</width>
-      <height>431</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background: transparent;
-color: white;
-border: none;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>20</y>
-      <width>131</width>
+      <x>80</x>
+      <y>90</y>
+      <width>121</width>
       <height>16</height>
      </rect>
     </property>
@@ -98,29 +83,14 @@ color: white;
 border: none;</string>
     </property>
     <property name="text">
-     <string>Журнал</string>
-    </property>
-   </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>280</y>
-      <width>171</width>
-      <height>201</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background: transparent;
-color: white;
-border: none;</string>
+     <string>Рекорды МК</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>250</y>
+      <x>340</x>
+      <y>90</y>
       <width>101</width>
       <height>20</height>
      </rect>
@@ -137,15 +107,15 @@ color: white;
 border: none;</string>
     </property>
     <property name="text">
-     <string>Рекорды</string>
+     <string>Рекорды СК</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>280</x>
       <y>440</y>
-      <width>221</width>
+      <width>211</width>
       <height>51</height>
      </rect>
     </property>
@@ -180,14 +150,85 @@ border: none;</string>
      <pixmap>3.png</pixmap>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>90</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: white;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>Рекорды БК</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>211</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: white;
+border: none;</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>211</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: white;
+border: none;</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>120</y>
+      <width>221</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: white;
+border: none;</string>
+    </property>
+   </widget>
    <zorder>label_4</zorder>
    <zorder>pushButton</zorder>
    <zorder>label</zorder>
-   <zorder>plainTextEdit</zorder>
    <zorder>label_2</zorder>
-   <zorder>plainTextEdit_2</zorder>
    <zorder>label_3</zorder>
    <zorder>pushButton_2</zorder>
+   <zorder>label_5</zorder>
+   <zorder>plainTextEdit</zorder>
+   <zorder>plainTextEdit_2</zorder>
+   <zorder>plainTextEdit_3</zorder>
   </widget>
  </widget>
  <resources/>

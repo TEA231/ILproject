@@ -1,7 +1,11 @@
 quantity_num = 1
-quantity_english = ['few', 'Medium', 'much']
-quantity_russian = ['Мало', 'Средние', 'Большое']
-language_in_test_num = 1
-language_in_test_R = ['Русский', 'Английский']
-language_in_test_E = ['Russian', 'English']
+words = ['Мало', 'Средние', 'Большое']
 text_test = ''
+text_test_2 = ''
+time = 0
+num_words = 0
+correct_num_words = 0
+proc_correct_num_words = 0
+log = None
+date1 = None
+date2 = None
